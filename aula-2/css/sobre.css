@@ -1,0 +1,32 @@
+.sobre {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  
+}
+
+.sobre h1, h2 {
+  color: #14213D;
+}
+
+.sobre h2 {
+  font-size: 1em;
+}
+
+.sobre__container {
+  width: 60%;
+  height: 100%;
+  padding: 2em 2em;
+}
+.sobre__img-wrapper {
+  width: 40%;
+  height: 100%;
+  background: url("../assets/img/sobre.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.sobre p {
+  color: #FCA311;
+}
